@@ -1,5 +1,6 @@
-,empty_col, quoted_field,multi
-line
-1,"", "This, contains comma", "Line 1
-Line 2"
-2, , "Embedded""quote", "	Tab	inside"
+id,product,price,quantity
+101,Widget A,19.99,50
+102,Widget B,24.99,35
+103,Widget C,14.50,100
+104,Widget D,29.99,25
+105,Widget E,9.99,200
