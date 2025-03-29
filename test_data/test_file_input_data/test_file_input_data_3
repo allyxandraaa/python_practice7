@@ -1,0 +1,6 @@
+JSON-like content: {"key": "value", "num": 42}
+CSV-like content: header1,header2\nvalue1,value2
+XML-like: <root><item>test</item></root>
+Binary-like: \x00\x01\x02 (interpreted as text)
+Newlines:\n\n\n\n
+Tabs:\t\t\t
