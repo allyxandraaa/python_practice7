@@ -12,7 +12,7 @@ class TestFileInput(unittest.TestCase):
             "Punctuation: !@#$%^&*()_+-={}[]|;:'\",.<>?/"
         )
         self.assertEqual(
-            file_input("test_data/test_file_input_data/test_file_input_data_1"),
+            file_input("test_data/test_file_input_data/test_file_input_data_1.txt"),
             expected_output,
         )
 
@@ -23,7 +23,7 @@ class TestFileInput(unittest.TestCase):
             "Mixed    whitespace    inside"
         )
         self.assertEqual(
-            file_input("test_data/test_file_input_data/test_file_input_data_2"),
+            file_input("test_data/test_file_input_data/test_file_input_data_2.txt"),
             expected_output,
         )
 
@@ -37,6 +37,6 @@ class TestFileInput(unittest.TestCase):
             "Tabs:\\t\\t\\t"
         )
         self.assertEqual(
-            file_input("test_data/test_file_input_data/test_file_input_data_3"),
+            file_input("test_data/test_file_input_data/test_file_input_data_3.txt"),
             expected_output,
         )
